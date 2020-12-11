@@ -1,4 +1,4 @@
-# girhub_pcs
+# github_pcs
 ### PCS
 
 Computadores inteligentes
