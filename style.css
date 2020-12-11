@@ -1,0 +1,278 @@
+/*
+#3A80E2
+#418CFC
+*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.principal{
+	display: flex;
+	flex-direction: column;
+}
+
+.logo{
+	
+	padding: 15px;/*espaciado en todos los lados del logo para centrar lo*/
+}
+
+
+.menu{
+	width: 50%;
+}
+
+.menu > ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	text-decoration: none;
+}
+
+li{
+	cursor: pointer;
+	color: #434343;
+	transition: all 0.3s;
+	border:solid 1px white;
+	padding: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+li:hover{
+	color: #418CFC;
+	border-color: #418CFC;
+}
+
+.navbar{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.pc1{
+	width: 50px;
+
+}
+
+.introduce{
+	background-color: rgb(163, 0, 0);
+	padding-top: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 90px;
+	background: url('https://res.cloudinary.com/codier/image/upload/v1559615517/p9apta9l8cedcmbfyqcc.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.big-lemma{
+	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.eslogan{
+	font-size: 1,5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.sub-lemma{
+	font-size: 0.8em;
+	color: #434343;
+}
+
+.trial{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	padding: 15px;
+	background-color: #3A80E2;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.trial:hover{
+	background-color: #418CFC;
+}
+
+small{
+	font-size: 0.7em;
+	color: #434343;
+}
+
+
+
+.description{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #3A80E2;
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	min-width:250px;
+}
+
+.description > div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logoD{
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-bottom: 15px; 
+}
+
+.textD{
+	font-size: 0.9em;
+	color: #f3f3f3;
+	text-align: center;
+	float: left;
+}
+
+.opinion{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('https://res.cloudinary.com/codier/image/upload/v1559615517/p9apta9l8cedcmbfyqcc.png');
+	background-position: center;
+	background-origin: initial;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform:scaleX(-1) scaleY(-1);
+}
+
+.opinion > .inside{
+	transform:scaleX(-1) scaleY(-1);
+	display: flex;
+	flex-direction: row;
+}
+.text{
+	text-align:center;
+}
+
+.textoo h2{
+	justify-content: center;
+	justify-items: center;
+	font-size: 3em;
+	padding-top: 20px;
+	text-align:center;
+}
+footer{
+	position: relative; /*fixed*/
+	bottom:0;
+	width: 100%;
+	flex-direction: column;
+
+	background: #3A80E2;
+	/*border-radius: 0.5em; 
+	margin: 2em auto;
+	text-align:center;*/
+}
+
+.contenedorgeneral{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 50px;
+}
+
+.contenedorgeneral .box{
+	flex-basis: 50%;
+	padding: 10px 20px;
+
+}
+.box h2{
+	font-size: 1.15em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	color: withe;
+}
+
+.box .info{
+	margin: 20px 0 0 0;
+
+}
+
+.info p{
+	font-size: 10px;
+	padding: 20px;
+}
+
+.box .info .social{
+	margin: 20px 0 0 0;
+
+}
+
+.box .info .social a{
+	padding: 0 2px;
+}
+
+
+.contenedorcentral h2{
+	text-align: center;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+@media(max-width:830px){
+	.footer{
+		grid-template-columns: 1fr;
+		align-content: center;
+	}
+}
+
+
+
+
+@media (max-width:767px){
+	.big-lemma{
+		text-align: center;
+		
+	}
+
+}
+
+
+
+@media (max-width:1000px){
+	.description{
+		grid-template-columns: 1fr 1fr;
+		align-content: center;
+	}
+}
+
+@media (max-width:830px){
+	.description{
+		grid-template-columns: 1fr;
+		align-content: center;
+	}
+}
+
