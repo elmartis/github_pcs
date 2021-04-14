@@ -11,3 +11,5 @@ los timos computadores de la marca PCS tiene la opción integrada de manejar com
 quiere decir que dentro de su nuevo pc tiene integrado un asistente inteligente que puede cumplir con múltiples tareas al mismo tiempo y ayudar el desarrollo de la vida diaria.
 
 PCS IntelGamer
+
+LINK: https://elmartis.github.io/github_pcs/
